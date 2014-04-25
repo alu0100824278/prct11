@@ -1,0 +1,127 @@
+\documentclass{beamer}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+%\usetheme{Madrid}
+%\usetheme{Antibes}
+%\usetheme{tree}
+%\usetheme{classic}
+\usetheme{frankfurt}
+\usetheme{seahorse}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\title[El Número PI]{Presentación con Beamer}
+\author{Jorge Antonio Herrera Alonso}
+\date[25-04-2014]{25 de abril de 2014}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+  
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\begin{frame}
+
+  \begin{small}
+    \begin{center}
+     Presentación sobre el número PI \\
+     Técnicas Experimentales \\
+     2014 \\
+     $\pi$ $\approx 3.14159265358979323846... $
+    \end{center}
+  \end{small}
+
+\end{frame}
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\begin{frame}
+  \frametitle{Historia del Número $\pi$}
+  \tableofcontents[pausesections]
+\end{frame}
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+\section{\bf Referencias bíblicas}
+
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\begin{frame}
+
+\frametitle{\bf Referencias bíblicas}
+
+Una de las referencias indirectas más antiguas del valor aproximado de $\pi$ se puede encontrar en un versículo de la Biblia:
+
+ "Hizo fundir asimismo un mar de diez codos de un lado al otro, perfectamente redondo. Tenía cinco codos de altura y a su alrededor un cordón de treinta codos."
+
+
+\end{frame}
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+\section{\bf Antigüedad Clásica}
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\begin{frame}
+
+\frametitle{\bf Antigüedad Clásica}
+
+  
+  El matemático griego Arquímedes (siglo III a. C.) fue capaz de determinar el valor de $\pi$ entre el intervalo comprendido por 3 10/71, como valor mínimo, y 3 1/7, como valor máximo. Con esta aproximación de Arquímedes se obtiene un valor con un error que oscila entre 0,024 y 0,040 sobre el valor real. El método usado por Arquímedes5 era muy simple y consistía en circunscribir e inscribir polígonos regulares de n-lados en circunferencias y calcular el perímetro de dichos polígonos. Arquímedes empezó con hexágonos circunscritos e inscritos, y fue doblando el número de lados hasta llegar a polígonos de 96 lados.
+
+  Alrededor del año 20 d. C., el arquitecto e ingeniero romano Vitruvio calcula $\pi$ como el valor fraccionario 25/8 midiendo la distancia recorrida en una revolución por una rueda de diámetro conocido.
+  \end{frame}
+  
+  \begin{frame}
+
+  En el siglo II, Claudio Ptolomeo proporciona un valor fraccionario por aproximaciones:
+
+  $\pi$ =  $377/120 \approx 3.1416... $
+  
+
+\end{frame}
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+\section{\bf Características Matemáticas}
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\begin{frame}
+\frametitle{Características:}
+
+Euclides fue el primero en demostrar que la relación entre una circunferencia y su diámetro es una cantidad constante. No obstante, existen diversas definiciones del número $\pi$, pero las más común es:
+
+    $\pi$ es la relación entre la longitud de una circunferencia y su diámetro.
+
+  Por tanto, también $\pi$ es:
+
+    El área de un círculo unitario (de radio unidad del plano euclídeo).
+    El menor numero real x positivo tal que $sin(x) = 0$.
+\end{frame}
+
+\begin{frame}
+
+  También es posible definir analíticamente $\pi$; dos definiciones son posibles:
+
+    La ecuación sobre los números complejos \[ e^{ix}+1=0 \] admite una infinidad de soluciones reales positivas, la más pequeña de las cuales es precisamente $\pi$ (véase identidad de Euler).
+    La ecuación diferencial \[ S''(x)+S(x)=0 \] con las condiciones de contorno \[ S(0)=0, S'(0)=1 \] para la que existe solución única, garantizada por el teorema de Picard-Lindelöf, es un función analítica (la función trigonométrica $sin(x)$ cuya raíz positiva más pequeña es precisamente $\pi$.
+
+\end{frame}
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+\section{Bibliografía}
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\begin{frame}
+
+  \frametitle{Bibliografía}
+  
+  \begin{thebibliography}{10}
+    \beamertemplatebookbibitems
+    \bibitem[Historia del Número $\pi$, 2010]{plan}
+    Historia del Número $\pi$.
+    (2010)
+
+    \beamertemplatebookbibitems
+    \bibitem[Los Secretos del Número $\pi$, 2011]{guia}
+    Los Secretos del Número $\pi$.
+    (2011)
+
+\end{thebibliography}
+\end{frame}
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\end{document}

@@ -1,0 +1,5 @@
+\beamer@endinputifotherversion {3.10pt}
+\beamer@sectionintoc {1}{\bf Referencias b\IeC {\'\i }blicas}{6}{0}{1}
+\beamer@sectionintoc {2}{\bf Antig\IeC {\"u}edad Cl\IeC {\'a}sica}{7}{0}{2}
+\beamer@sectionintoc {3}{\bf Caracter\IeC {\'\i }sticas Matem\IeC {\'a}ticas}{9}{0}{3}
+\beamer@sectionintoc {4}{Bibliograf\IeC {\'\i }a}{11}{0}{4}
